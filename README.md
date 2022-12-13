@@ -1,6 +1,7 @@
 # Dbms-Practical-File--PTU--
 Solved Practical file for College students for reference Purpose Only.
 
+
 1. Used of CREATE, ALTER, RENAME and DROP statement in the database tables
 (relations)
 2. Used of INSERT INTO, DELETE and UPDATE statement in the database tables
@@ -11,7 +12,6 @@ Solved Practical file for College students for reference Purpose Only.
 6. Use of aggregate functions.
 7. Use of substring comparison.
 8. Use of order by statement.
-
 9. Consider the following schema for a Library Database:
 BOOK (Book_id, Title, Publisher_Name, Pub_Year)
 BOOK_AUTHORS (Book_id, Author_Name)
@@ -19,7 +19,6 @@ PUBLISHER (Name, Address, Phone)
 BOOK_COPIES (Book_id, Branch_id, No-of_Copies)
 BOOK_LENDING (Book_id, Branch_id, Card_No, Date_Out, Due_Date)
 LIBRARY_BRANCH (Branch_id, Branch_Name, Address)
-
 Write SQL queries to
 1. Retrieve details of all books in the library_id, title, name of publisher, authors,
 number of copies in each branch, etc.
@@ -34,12 +33,10 @@ manipulation operation.
 a simple query.
 5. Create a view of all books and its number of copies that are currently available in the
 Library.
-
 10. Consider the following schema for Order Database:
 SALESMAN (Salesman_id, Name, City, Commission)
 CUSTOMER (Customer_id, Cust_Name, City, Grade, Salesman_id)
 ORDERS (Ord_No, Purchase_Amt, Ord_Date, Customer_id, Salesman_id)
-
 Write SQL queries to
 1. Count the customers with grades above Amritsar’s average.
 2. Find the name and numbers of all salesmen who had more than one customer.
@@ -49,7 +46,6 @@ Write SQL queries to
 a day.
 5. Demonstrate the DELETE operation by removing salesman with id 1000. All his
 orders must also be deleted.
-
 11. Write a PL/SQL code to add two numbers and display the result. Read the numbers during
 run time.
 12. Write a PL/SQL code to find sum of first 10 natural numbers using while and for loop.
