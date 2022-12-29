@@ -1,7 +1,0 @@
-INSERT INTO book_copies VALUES(10,1,10);
-INSERT INTO book_copies VALUES(5,1,11);
-INSERT INTO book_copies VALUES(2,2,12);
-INSERT INTO book_copies VALUES(5,2,13);
-INSERT INTO book_copies VALUES(7,3,14);
-INSERT INTO book_copies VALUES(1,5,10);
-INSERT INTO book_copies VALUES(3,4,11);
